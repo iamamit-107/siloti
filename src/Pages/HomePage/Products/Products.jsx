@@ -7,7 +7,7 @@ import product3 from "../../../images/product3.png";
 
 const Products = () => {
     return (
-        <div className="products">
+        <div id="products">
             <div className="container">
                 <div className="row pb-5">
                     <div className="col-12 text-left">

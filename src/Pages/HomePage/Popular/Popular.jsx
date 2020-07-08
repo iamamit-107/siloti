@@ -10,7 +10,7 @@ import product3 from "../../../images/popular3.png";
 
 const Popular = () => {
     return (
-        <div className="popular" style={{ backgroundColor: "#1F2235" }}>
+        <div id="popular" style={{ backgroundColor: "#1F2235" }}>
             <div className="container">
                 <div className="row pb-5">
                     <div className="col-12">

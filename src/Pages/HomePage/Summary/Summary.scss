@@ -1,21 +1,25 @@
 .summary {
     .inner {
-        padding: 60px 30px;
+        padding: 60px 25px;
 
         p {
             margin-bottom: 0;
             color: #e8bb77;
         }
 
-        h1 {
-            margin-bottom: 0;
-            font-size: 35px;
+        a {
+            font-size: 30px;
             color: white;
+            text-decoration: none;
+            cursor: pointer;
         }
 
         transition: ease-in-out 0.5s;
         &:hover {
             background-color: #6a6e74;
+            a {
+                color: white;
+            }
         }
     }
 }

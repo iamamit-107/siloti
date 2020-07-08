@@ -15,7 +15,10 @@ const Blog = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="row" style={{ backgroundColor: "#303451" }}>
+                <div
+                    className="row px-4"
+                    style={{ backgroundColor: "#303451" }}
+                >
                     <div className="col-md-12">
                         <div
                             id="carouselExampleCaptions"

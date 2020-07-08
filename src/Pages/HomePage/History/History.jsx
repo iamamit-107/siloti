@@ -5,11 +5,11 @@ import bg from "../../../images/history-bg.png";
 
 const History = () => {
     return (
-        <div className="history">
+        <div id="history">
             <div className="container">
                 <div className="row" style={{ backgroundImage: `url(${bg})` }}>
                     <div className="offset-lg-7 col-lg-4">
-                        <div className="text-box text-left">
+                        <div className="text-box text-left pl-5">
                             <p className="sub-title">About Us</p>
                             <h1 className="title">Our History</h1>
                             <p className="description">

@@ -1,5 +1,4 @@
-.popular {
-    padding-top: 90px;
+#popular {
     padding-bottom: 90px;
 
     .title {
@@ -14,6 +13,8 @@
     .card {
         border: none;
         overflow: hidden;
+        border-radius: 0;
+        background-color: inherit;
 
         img {
             transition: ease-in-out 0.5s;
