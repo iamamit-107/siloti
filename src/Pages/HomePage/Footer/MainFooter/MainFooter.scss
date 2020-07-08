@@ -1,0 +1,31 @@
+.main-footer {
+    .container {
+        position: relative;
+
+        .row {
+            position: relative;
+
+            .img-col {
+                position: absolute;
+                top: -172px;
+                left: -60px;
+
+                @media (min-width: 1005px) and (max-width: 1024px) {
+                    position: absolute;
+                    top: 31px;
+                    left: -24px;
+                }
+
+                @media (min-width: 992px) and (max-width: 1005px) {
+                    position: absolute;
+                    top: 33px;
+                    left: -24px;
+                }
+
+                @media (max-width: 991.98px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

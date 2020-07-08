@@ -1,0 +1,21 @@
+.summary {
+    .inner {
+        padding: 60px 30px;
+
+        p {
+            margin-bottom: 0;
+            color: #e8bb77;
+        }
+
+        h1 {
+            margin-bottom: 0;
+            font-size: 35px;
+            color: white;
+        }
+
+        transition: ease-in-out 0.5s;
+        &:hover {
+            background-color: #6a6e74;
+        }
+    }
+}

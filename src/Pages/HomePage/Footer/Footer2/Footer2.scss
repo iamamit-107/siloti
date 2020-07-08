@@ -1,0 +1,121 @@
+.footer2 {
+    color: white;
+    padding: 70px 0;
+    .btn-social {
+        color: #ebba75;
+        border-color: #ebba75;
+        text-transform: uppercase;
+
+        a {
+            text-decoration: none;
+            color: #ebba75;
+            i {
+                margin-right: 5px;
+                color: white;
+            }
+        }
+
+        transition: ease-in-out 0.5s;
+
+        &:hover {
+            background-color: #ebba75;
+            transform: translateY(-8px);
+            a {
+                color: #fff;
+                i {
+                    margin-right: 5px;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .border-rounded {
+        border: 1px solid white;
+        border-radius: 50rem;
+        color: white;
+        margin-left: 10px;
+
+        transition: ease-in-out 0.5s;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        &:hover {
+            transform: translateY(-8px);
+            background-color: #ebba75;
+            border-color: #ebba75;
+            a {
+                color: white;
+            }
+        }
+    }
+
+    form {
+        display: flex;
+    }
+
+    input {
+        border: 1px solid whitesmoke;
+        background-color: transparent;
+        padding: 15px 20px;
+        width: 60%;
+        color: white;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: white;
+        }
+    }
+
+    .send-btn {
+        border: 1px solid #ebba75;
+        padding: 15px 30px;
+        color: white;
+        margin-left: 20px;
+
+        i {
+            transition: ease-in-out 0.5s;
+            margin-left: 10px;
+        }
+
+        transition: ease-in-out 0.5s;
+
+        &:hover {
+            background-color: #ebba75;
+            i {
+                transform: translateX(5px);
+            }
+        }
+    }
+
+    .cup-image {
+        position: absolute;
+
+        img {
+            position: relative;
+            bottom: 270px;
+            right: 56px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        form {
+            display: inline;
+
+            input {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+
+            .send-btn {
+                margin-left: 0;
+            }
+        }
+    }
+}

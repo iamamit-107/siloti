@@ -1,0 +1,31 @@
+.footer1 {
+    .navbar {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .navbar > .container {
+        align-items: flex-end !important;
+    }
+
+    .navbar-toggler {
+        outline: none;
+        box-shadow: none;
+        border: 1px solid #e8bb77;
+    }
+
+    .nav-link {
+        color: white !important;
+        border-bottom: 1px solid transparent !important;
+
+        &:hover {
+            color: #e8bb77 !important;
+            border-bottom: 1px solid #e8bb77 !important;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .navbar > .container {
+            align-items: center !important;
+        }
+    }
+}

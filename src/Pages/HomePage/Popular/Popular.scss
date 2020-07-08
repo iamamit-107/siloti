@@ -1,0 +1,69 @@
+.popular {
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    .title {
+        .img1 {
+            margin-right: 30px;
+        }
+        .img2 {
+            margin-left: 30px;
+        }
+    }
+
+    .card {
+        border: none;
+        overflow: hidden;
+
+        img {
+            transition: ease-in-out 0.5s;
+            width: 100%;
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .card1 {
+        margin-right: 30px;
+    }
+    .card2 {
+        margin: 0 15px;
+    }
+    .card3 {
+        margin-left: 30px;
+    }
+
+    .card-body {
+        overflow: hidden;
+        background-color: #3a3e49;
+        padding: 30px 35px;
+        z-index: 100;
+
+        p {
+            margin-bottom: 0;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 35px;
+            margin-bottom: 0;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .card1 {
+            margin-right: 0px;
+        }
+        .card2 {
+            margin: 0 0px;
+        }
+        .card3 {
+            margin-left: 0px;
+        }
+    }
+}
