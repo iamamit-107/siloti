@@ -9,7 +9,7 @@ const History = () => {
             <div className="container">
                 <div className="row" style={{ backgroundImage: `url(${bg})` }}>
                     <div className="offset-lg-7 col-lg-4">
-                        <div className="text-box text-left pl-5">
+                        <div className="text-box text-left">
                             <p className="sub-title">About Us</p>
                             <h1 className="title">Our History</h1>
                             <p className="description">

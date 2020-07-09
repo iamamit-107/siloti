@@ -56,7 +56,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    to="/"
+                                    to="/products"
                                     className="nav-link yes-hover"
                                     activeClassName="selected"
                                 >

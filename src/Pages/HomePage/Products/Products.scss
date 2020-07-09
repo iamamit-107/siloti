@@ -46,6 +46,10 @@
             color: white;
             font-size: 35px;
             margin-bottom: 0;
+
+            @media (min-width: 768.2px) and (max-width: 992px) {
+                font-size: 25px;
+            }
         }
     }
 

@@ -11,6 +11,11 @@
                     top: 404px;
                     transform: rotate(3deg);
 
+                    @media (min-width: 1921px) and (max-width: 2560px) {
+                        left: -215px;
+                        top: 290px;
+                    }
+
                     @media (max-width: 1024px) {
                         left: -110px;
                         top: 404px;
@@ -19,6 +24,10 @@
                     @media (max-width: 992px) {
                         left: -110px;
                         top: 350px;
+                    }
+
+                    @media (max-width: 768px) {
+                        display: none;
                     }
                 }
             }

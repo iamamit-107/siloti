@@ -5,6 +5,14 @@
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
+
+        .text-box {
+            padding-left: 5rem;
+
+            @media (max-width: 768px) {
+                padding-left: 1rem;
+            }
+        }
     }
 }
 

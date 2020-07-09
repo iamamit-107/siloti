@@ -7,33 +7,18 @@ import element2 from "../../../images/element2.png";
 import product1 from "../../../images/popular1.png";
 import product2 from "../../../images/popular2.png";
 import product3 from "../../../images/popular3.png";
+import IconHeading from "../../CommonComponent/IconHeading/IconHeading";
 
 const Popular = () => {
     return (
         <div id="popular" style={{ backgroundColor: "#1F2235" }}>
             <div className="container">
-                <div className="row pb-5">
-                    <div className="col-12">
-                        <p className="sub-title">Online Store</p>
-                        <h1 className="title">
-                            <span>
-                                <img
-                                    src={element1}
-                                    alt=""
-                                    className="img-fluid img1"
-                                />
-                            </span>
-                            Popular Products
-                            <span>
-                                <img
-                                    src={element2}
-                                    alt=""
-                                    className="img-fluid img2"
-                                />
-                            </span>
-                        </h1>
-                    </div>
-                </div>
+                <IconHeading
+                    title="Popular Products"
+                    subtitle="Online Store"
+                    element1={element1}
+                    element2={element2}
+                />
 
                 <div className="row">
                     <div className="col-lg-4 mb-5">
