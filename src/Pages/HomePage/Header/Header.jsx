@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from "../../../images/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import "./Header.scss";
 
@@ -13,9 +13,9 @@ const Header = () => {
                 style={{ background: "transparent" }}
             >
                 <div className="container">
-                    <a className="navbar-brand" href="/">
+                    <Link className="navbar-brand" to="/">
                         <img src={logo} alt="logo" className="img-fluid" />
-                    </a>
+                    </Link>
                     <button
                         className="navbar-toggler"
                         type="button"

@@ -1,0 +1,67 @@
+$yellow-color: #e8bb77;
+.blend-tea {
+    background-color: #23222d;
+    .blend-tea-bg {
+        background: linear-gradient(
+            90deg,
+            rgba(51, 52, 68, 1) 50%,
+            rgba(39, 39, 54, 1) 50%
+        );
+
+        padding-top: 90px;
+        padding-bottom: 90px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        .p-subtitle {
+            font-size: 18px;
+            color: $yellow-color;
+            margin-bottom: 0;
+        }
+
+        .p-title {
+            font-size: 35px;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+
+        .p-list {
+            list-style: none;
+            font-size: 16px;
+            color: white;
+        }
+
+        .p-gram {
+            color: $yellow-color;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 50px;
+
+            .p-price {
+                color: white;
+                font-size: 30px;
+                margin-left: 10px;
+            }
+        }
+
+        .p-button {
+            svg {
+                margin-left: 10px;
+                color: $yellow-color;
+                transition: ease-in-out 0.5s;
+            }
+            &:hover {
+                svg {
+                    color: black;
+                    transform: translateX(8px);
+                }
+            }
+        }
+
+        .border-rights {
+            border-left: 1px solid $yellow-color;
+        }
+    }
+}
